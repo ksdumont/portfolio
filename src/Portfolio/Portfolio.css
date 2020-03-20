@@ -1,0 +1,26 @@
+.portfolio > h1 {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 40px;
+  color: #123c69;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px auto;
+  width: 90%;
+}
+@media screen and (min-width: 1000px) {
+  .portfolio > h1 {
+    margin-top: 100px;
+    font-size: 50px;
+  }
+  .projects {
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    margin: 10px auto;
+  }
+}

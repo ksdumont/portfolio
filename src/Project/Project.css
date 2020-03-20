@@ -1,0 +1,57 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin: 10px auto;
+  width: 90%;
+}
+.project > h2 {
+  font-size: 30px;
+  color: #bab2b5;
+  margin: 5px auto;
+}
+.project > a > img {
+  width: 200px;
+  height: 120px;
+}
+.project > a > img:hover {
+  border: solid 5px #edc7b7;
+  opacity: .5;
+}
+.project-text {
+  width: 90%;
+  text-align: center;
+  color: #bab2b5;
+  font-size: 18px;
+}
+.tech {
+    font-size: 12px;
+    width: 95%;
+    color: #123c69;
+    text-align: center;
+    margin: 5px auto;
+    
+}
+.github {
+  margin: 5px auto;
+  text-decoration: none;
+  color: #bab2b5;
+  font-size: 16px;
+}
+.github:hover {
+  color: #edc7b7;
+}
+@media screen and (min-width: 1000px) {
+    .project {
+        margin: 10px;
+    }
+    .project-text {
+        width: 80%;
+        margin: 5px auto;
+    }
+    .project > a > img {
+        width: 380px;
+        height: 200px;
+    }
+}
