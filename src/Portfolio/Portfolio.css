@@ -1,5 +1,5 @@
 .portfolio > h1 {
-  margin-top: 30px;
+  margin-top: 50px;
   text-align: center;
   font-size: 40px;
   color: #123c69;
@@ -23,4 +23,17 @@
     width: 90%;
     margin: 10px auto;
   }
+}
+@keyframes project-opacity {
+  0% {
+    transform: rotate(xx);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(xx);
+    opacity: 1;
+  }
+}
+.projects {
+  animation: project-opacity 2s forwards 0s linear;
 }

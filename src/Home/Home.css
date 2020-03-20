@@ -14,7 +14,7 @@
 .home-page > header > h1 {
   color: #123c69;
   font-size: 44px;
-  margin-top: 50px;
+  margin-top: 60px;
   margin-bottom: 0;
 }
 .img-about {
@@ -74,7 +74,7 @@
 }
 
 .sketch-image {
-  animation: sketch-opacity 6s forwards 0s ease-in;
+  animation: sketch-opacity 5s forwards 0s ease-in;
 }
 
 @keyframes about-rotate {
@@ -87,7 +87,7 @@
     opacity: 1;
   }
 }
-
 .about-paragraph {
   animation: about-rotate 1s forwards 0s linear;
 }
+
