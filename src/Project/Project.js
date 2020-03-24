@@ -3,7 +3,7 @@ import "./Project.css";
 
 const Project = props => {
   return (
-    <div className="project">
+    <section className="project">
       <h2>{props.name}</h2>
       <a href={props.link} target="_blank" rel="noopener noreferrer">
         <img src={props.image} alt="project screenshot" />
@@ -18,7 +18,7 @@ const Project = props => {
       >
         Github
       </a>
-    </div>
+    </section>
   );
 };
 

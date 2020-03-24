@@ -4,7 +4,7 @@ import "./Nav.css";
 
 const Nav = () => {
   return (
-    <div className="nav">
+    <section className="nav">
       <div className="menu-wrap">
         <input type="checkbox" className="toggler" />
         <div className="hamburger">
@@ -42,7 +42,7 @@ const Nav = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

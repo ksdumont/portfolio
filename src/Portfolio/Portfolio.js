@@ -11,10 +11,10 @@ class Portfolio extends Component {
 
   render() {
     return (
-      <div className="portfolio">
+      <section className="portfolio">
         <Nav />
         <h1>Projects</h1>
-        <div className="projects">
+        <section className="projects">
           {this.state.projects.map((project, i) => (
             <Project
               key={i}
@@ -26,8 +26,8 @@ class Portfolio extends Component {
               tech={project.tech}
             />
           ))}
-        </div>
-      </div>
+        </section>
+      </section>
     );
   }
 }

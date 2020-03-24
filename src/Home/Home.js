@@ -4,12 +4,12 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div className="home-page">
+    <section className="home-page">
       <Nav />
       <header>
         <h1>Keith Dumont</h1>
       </header>
-      <div className="img-about">
+      <section className="img-about">
         <img
           src="images/face-sketch.jpg"
           alt="face sketch"
@@ -30,8 +30,8 @@ const Home = () => {
             here
           </a>
         </p>
-      </div>
-    </div>
+      </section>
+    </section>
   );
 };
 
