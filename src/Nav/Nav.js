@@ -37,7 +37,7 @@ const Nav = () => {
               </a>
             </li>
             <li>
-              <a href="mailto:webdevkeith@gmail.com">Contact</a>
+              <a href="mailto:ksdumont@gmail.com">Contact</a>
             </li>
           </ul>
         </div>

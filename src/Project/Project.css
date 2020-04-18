@@ -17,7 +17,7 @@
 }
 .project > a > img:hover {
   border: solid 5px #edc7b7;
-  opacity: .8;
+  opacity: 0.8;
 }
 .project-text {
   width: 90%;
@@ -26,12 +26,11 @@
   font-size: 18px;
 }
 .tech {
-    font-size: 12px;
-    width: 95%;
-    color: #123c69;
-    text-align: center;
-    margin: 5px auto;
-    
+  font-size: 12px;
+  width: 95%;
+  color: #123c69;
+  text-align: center;
+  margin: 5px auto;
 }
 .github {
   margin: 5px auto;
@@ -43,15 +42,15 @@
   color: #edc7b7;
 }
 @media screen and (min-width: 1000px) {
-    .project {
-        margin: 10px;
-    }
-    .project-text {
-        width: 80%;
-        margin: 5px auto;
-    }
-    .project > a > img {
-        width: 380px;
-        height: 200px;
-    }
+  .project {
+    margin: 10px;
+  }
+  .project-text {
+    width: 80%;
+    margin: 5px auto;
+  }
+  .project > a > img {
+    width: 240px;
+    height: 150px;
+  }
 }
