@@ -9,6 +9,16 @@ const projects = [
     tech: "HTML | CSS | Javascript | React | Node | Express | PostgreSQL | Knex"
   },
   {
+    name: "SurveIt",
+    image: "./images/SurveIt-landing.png",
+    link: "https://surveit.herokuapp.com/",
+    text:
+      "Collect feedback from your users. Send mass emails to a big list of users for the purpose of collecting feedback.",
+    repo: "https://github.com/ksdumont/surveIt-server",
+    tech:
+      "HTML | CSS | Javascript | React | Node | Express | MongoDB | Stripe API | Google Oauth Authentication | Passport Authentication | SendGrid API"
+  },
+  {
     name: "iPlan",
     image: "./images/iPlan.png",
     link: "https://iplan.ksdumont.now.sh/",
