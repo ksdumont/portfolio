@@ -23,7 +23,7 @@ const Home = () => {
           Instructor. I enjoy playing music, travelling, exploring nature, and
           being upside down. You can also check me out{" "}
           <a
-            href="https://www.keithdumont.com/"
+            href="https://keithdumont.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
